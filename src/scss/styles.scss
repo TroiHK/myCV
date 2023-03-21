@@ -1,0 +1,33 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --bs-primary-rgb: 247, 148, 29;
+    --bs-danger-rgb: 247, 148, 29;
+}
+
+.kt {
+    &-avatar {
+        aspect-ratio: 900/ 720;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &-heading {
+        font-weight: 500;
+    }
+}
+
+.right-content {
+    h4 {
+        .feather {
+            width: 36px;
+            height: 36px;
+        }
+    }
+}
